@@ -36,6 +36,12 @@ function cellClicked(){
 function updateCell(cell, index){
     options[index] = currentPlayer;
     cell.textContent = currentPlayer;
+    if(currentPlayer == "X"){
+        cell.style.color = "red";
+    }
+    else if(currentPlayer == "O"){
+        cell.style.color = "blue";
+    }
 }
 function changePlayer(){
     currentPlayer = (currentPlayer == "X") ? "O" : "X";

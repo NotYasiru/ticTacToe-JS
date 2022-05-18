@@ -5,8 +5,8 @@
 .cell{
     width: 75px;
     height: 75px;
-    border: 2px solid;
-    box-shadow: 0 0 0 2px;
+    border: 2px solid black;
+    box-shadow: 0 0 0 2px black;
     line-height: 75px;
     font-size: 50px;
     cursor: pointer;
