@@ -46,12 +46,6 @@ function updateCell(cell, index){
 function changePlayer(){
     currentPlayer = (currentPlayer == "X") ? "O" : "X";
     statusText.textContent = `${currentPlayer}'s turn`;
-    if(currentPlayer == "X"){
-        statusText.style.color = "red";
-    }
-    else if(currentPlayer == "O"){
-        statusText.style.color = "blue";
-    }
 }
 function checkWinner(){
     let roundWon = false;
